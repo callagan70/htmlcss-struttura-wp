@@ -21,10 +21,11 @@ body{
     margin-right: 5%;
     margin-top: 25px;
 }
-/* .clearfix::after{
+
+.clearfix::after{
     content: "";
     display: table;
-    clear: both; */
+    clear: both;}
 
 .second-section{
     width: auto;
@@ -33,38 +34,35 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 25px;
-    position: relative;
+    border-bottom: 15px solid blue;
+    display: block;
 }
 
 .head-2s{
-    position: relative;
     width: auto;
     height: 75px;
-    border-bottom: 15px solid white;
+    border-bottom: 15px solid blue;
 }
 
 .left-2s{
-    position: absolute;
     width: 20%;
-    height: 79%;
-    border: 10px solid white;
-    float: left;
-    background-color: brown;
-
+    height: 275px;
+    display: inline-block;
 }
 
 .middle-2s{
-    position: absolute;
-
+width: 59%;
+height: 275px;
+display: inline-block;
+border-right: 15px solid blue;
+border-left: 15px solid blue;
 }
 
 .right-2s{
-    position: absolute;
-
+    width: 20%;
+    height: 275px;
+    display: inline-block;
 }
-
-
-
 
 footer{
     width: auto;
